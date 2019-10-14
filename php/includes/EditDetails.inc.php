@@ -5,7 +5,7 @@ if (isset($_POST['save-submit'])) {
   $fullname = $_POST['uFullName'];
   $about = $_POST['uAbout'];
 
-  
+
 
   //Insert Info
   $sql = "INSERT INTO applicants (userFull, userAbout) VALUES (?, ?)";
